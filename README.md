@@ -60,6 +60,7 @@ sudo pip3 install -r requirements.txt
 
   XXXX/data/  
     &nbsp; &nbsp; &nbsp; &nbsp; └── Market1501
+    &nbsp; &nbsp; &nbsp; &nbsp; └── DukeMTMC_reID
     &nbsp; &nbsp; &nbsp; &nbsp; └── MSMT17
     &nbsp; &nbsp; &nbsp; &nbsp; └── VeRi776
     &nbsp; &nbsp; &nbsp; &nbsp; └── InShop  
@@ -70,15 +71,15 @@ sudo pip3 install -r requirements.txt
 - Our teacher models are at https://pan.baidu.com/s/1X8urI8_bDfmdapSaNGYbtA?pwd=if2i or https://drive.google.com/drive/folders/1-S6r2nrcn6fQzBrnnEtLbivs4sZ028ZE?usp=drive_link, please download the checkpoints to `./download_ckpts`
 
 2. Path setting
-- Please modify the following line in `AIR_Distiller/tools/train.py` and `AIR_Distiller/tools/test.py`:  
-`sys.path.append(os.path.abspath("XXXXX/AIR_Distiller"))`  
-Replace `"XXXXX/AIR_Distiller"` with the absolute path of your project to ensure correct module imports.
+- Please modify the following line in `IR_Distiller/tools/train.py` and `IR_Distiller/tools/test.py`:  
+`sys.path.append(os.path.abspath("XXXXX/IR_Distiller"))`  
+Replace `"XXXXX/IR_Distiller"` with the absolute path of your project to ensure correct module imports.
 
- **Example** (assuming the project path is `/home/user/AIR_Distiller`):  
+ **Example** (assuming the project path is `/home/user/IR_Distiller`):  
 ```python
 import sys  
 import os  
-sys.path.append(os.path.abspath("/home/user/AIR_Distiller"))
+sys.path.append(os.path.abspath("/home/user/IR_Distiller"))
 ```
 - Please set the `ROOT_DIR` path in the configuration file, i.e., XXX.yaml to the absolute path of the `data` folder.  
 - 
@@ -94,11 +95,7 @@ DATASETS:
 
  ```bash
   # for instance, when the teacher network is ResNet101 and the student network is ResNet18, our PDRD method.
-  python AIR_Distiller/tools/train.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18_64x64/D3.yaml 
-  ```
- ```bash
-  # for instance, when the gallery network is ResNet101 and the query network is ResNet18, our UGD method.
-  python AIR_Distiller/tools/train.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18_64x64/UGD.yaml 
+  python IR_Distiller/tools/train.py --cfg Training_Configs/SOP/ResNet101_ResNet18_256x256/PDRD.yaml 
   ```
 
   - By default, the ImageNet pre-trained model will be used for training. The model will be automatically downloaded from the internet on the first run.  
