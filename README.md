@@ -182,5 +182,5 @@ IR_Distiller is released under the MIT license. See [LICENSE](LICENSE) for detai
 
 # Acknowledgement
 - Thanks for DKD. We build this library based on the [DKD's codebase](https://github.com/megvii-research/mdistiller).
-- Thanks for D3still. We build this library based on the [D3still's codebase]([https://github.com/SCY-X/D3still]).
+- Thanks for D3still. We build this library based on the [D3still's codebase](https://github.com/SCY-X/D3still).
 - Thanks Yihong Lin for the discussion about PDRD.
