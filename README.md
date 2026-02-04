@@ -14,7 +14,7 @@ This repo is
 
 ## SOTA Experiments
 
-### On the Caltech-UCSD Birds 200 (CUB-200-2011) dataset
+### On the Market-1501 dataset
 
 |
 
@@ -153,6 +153,7 @@ Across all methods we experimented with, we found that using a distillation batc
 
 If this repo is helpful for your research, please consider citing these paper:
 
+```BibTeX
 @article{xie2024pairwise,
   title={Pairwise difference relational distillation for object re-identification},
   author={Xie, Yi and Wu, Hanxiao and Lin, Yihong and Zhu, Jianqing and Zeng, Huanqiang},
