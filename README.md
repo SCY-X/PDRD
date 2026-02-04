@@ -6,32 +6,11 @@ This repo is
 
 
 
-
-NOTE: 1) Unlike our CVPR 2024 paper, which employs only distillation loss, this repository follows common practices in prior knowledge distillation research by incorporating standard losses (e.g., cross-entropy loss and triplet loss) during the distillation of the student network (query network). Correspondingly, the hyperparameters in all distillation methods are also adjusted accordingly. As a result, the experimental outcomes reported in this repository demonstrate significant performance improvements across multiple datasets compared to those presented in the CVPR 2024 paper. For example, on the In-Shop dataset, [FitNet](https://arxiv.org/abs/1412.6550) performance is improved from 62.84% mAP to 65.99% mAP. To offer a more comprehensive evaluation of the effectiveness of our approach, this repository presents ablation experiment results on new benchmarks. 2) The mINP metric is only applicable and meaningful for the MSMT17 dataset.
-
-(3) the official implementation of the Neural Networks-2025 paper: [Unambiguous granularity distillation for asymmetric image retrieval](https://www.sciencedirect.com/science/article/pii/S0893608025001820).
-
-## What's New
-## Jan 23, 2026
-Fixed an issue where the downsampling stride in the final stage of ResNet-IBN was not set to 1. Based on the corrected architecture, we re-trained the ResNet101-IBN model and released the corresponding weights on both Baidu Cloud and Google Drive under the filename MSMT17_ResNet101_IBN_320x160_65.15_85.46.pth. In addition, we updated the distillation results on the MSMT17 dataset for ResNet101-IBN → ResNet18.
-
-## D3still: Decoupled Differential Distillation for Asymmetric Image Retrieval
+## Pairwise difference relational distillation for object re-identification
 
 ### Framework
 <div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_framework.png" width="100%" ></div>
 
-### Ablation Experiments
-
-Gallery Network: ResNet101 &nbsp; Gallery Network Input Resolution: $256\times256$
- 
-Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($128\times128$) &nbsp; In-Shop ($64\times 64$) &nbsp; SOP ($64\times 64$)
-
-<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_ablation_study.png" width="100%" ></div> 
-
-## Unambiguous granularity distillation for asymmetric image retrieval
-
-### Framework
-<div style="text-align:center"><img src="/AIR_Distiller/.github/UGD_framework.png" width="100%" ></div> 
 
 ## SOTA Experiments
 
@@ -56,9 +35,7 @@ AR-Distiller supports the following distillation methods on In-Shop Clothes Retr
 |[CC](https://openaccess.thecvf.com/content_ICCV_2019/html/Peng_Correlation_Congruence_for_Knowledge_Distillation_ICCV_2019_paper.html) |ICCV| 2019|
 |[CSD](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_Contextual_Similarity_Distillation_for_Asymmetric_Image_Retrieval_CVPR_2022_paper.html) |CVPR|2023 |
 |[RAML](https://openaccess.thecvf.com/content/WACV2023/html/Suma_Large-to-Small_Image_Resolution_Asymmetry_in_Deep_Metric_Learning_WACV_2023_paper.html)|WACV|2023|
-|[ROP](https://openreview.net/forum?id=dYHYXZ3uGdQ)|ICLR|2023|
 |[D3still](https://openaccess.thecvf.com/content/CVPR2024/html/Xie_D3still_Decoupled_Differential_Distillation_for_Asymmetric_Image_Retrieval_CVPR_2024_paper.html) |CVPR|2024|
-|[UGD](https://www.sciencedirect.com/science/article/pii/S0893608025001820) |Neural Networks|2025|
 
 ### Installation
 
@@ -114,7 +91,7 @@ DATASETS:
 3. Training 
 
  ```bash
-  # for instance, when the gallery network is ResNet101 and the query network is ResNet18, our D3 method.
+  # for instance, when the teacher network is ResNet101 and the student network is ResNet18, our PDRD method.
   python AIR_Distiller/tools/train.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18_64x64/D3.yaml 
   ```
  ```bash
@@ -129,16 +106,12 @@ DATASETS:
 4. Evaluation
 
  ```bash
-  # for instance, when the gallery network is ResNet101 and the query network is ResNet18, our D3 method.
-  python AIR_Distiller/tools/test.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18_64x64/D3.yaml 
+  # for instance, when the teacher network is ResNet101 and the student network is ResNet18, our PDRD method.
+  python AIR_Distiller/tools/test.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18/PDRD.yaml 
  ```
 
-```bash
-  # for instance, when the gallery network is ResNet101 and the query network is ResNet18, our UGD method.
-  python AIR_Distiller/tools/test.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18_64x64/UGD.yaml 
- ```
 
- - During inference, you can first navigate to `AIR_Distiller/utils/rank_cylib` and run the following commands to enable sorting with C language, which helps reduce inference time:  
+ - During inference, you can first navigate to `IR_Distiller/utils/rank_cylib` and run the following commands to enable sorting with C language, which helps reduce inference time:  
 
 ```bash
 python3 setup.py build_ext --inplace
@@ -147,7 +120,7 @@ rm -rf build
 
 ### Custom Distillation Method
 
-1. create a python file at `AIR_Distiller/distillers/` and define the distiller
+1. create a python file at `IR_Distiller/distillers/` and define the distiller
   
   ```python
   from ._base import Distiller
@@ -166,9 +139,9 @@ rm -rf build
     ...
   ```
 
-2. regist the distiller in `distiller_dict` at `AIR_Distiller/distillers/__init__.py`
+2. regist the distiller in `distiller_dict` at `IR_Distiller/distillers/__init__.py`
 
-3. regist the corresponding hyper-parameters at `AIR_Distiller/config/defaults.py`
+3. regist the corresponding hyper-parameters at `IR_Distiller/config/defaults.py`
 
 4. create a new config file and test it.
 
