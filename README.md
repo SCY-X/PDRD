@@ -151,7 +151,18 @@ Across all methods we experimented with, we found that using a distillation batc
 
 # Citation
 
-If this repo is helpful for your research, please consider citing the paper:
+If this repo is helpful for your research, please consider citing these paper:
+
+@article{xie2024pairwise,
+  title={Pairwise difference relational distillation for object re-identification},
+  author={Xie, Yi and Wu, Hanxiao and Lin, Yihong and Zhu, Jianqing and Zeng, Huanqiang},
+  journal={Pattern Recognition},
+  volume={152},
+  pages={110455},
+  year={2024},
+  publisher={Elsevier}
+}
+
 
 ```BibTeX
 @InProceedings{Xie_2024_CVPR,
