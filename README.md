@@ -55,14 +55,16 @@ sudo pip3 install -r requirements.txt
 ### Getting started
 
 0. download data
-- The dataset has been prepared in the format we read at the link: https://pan.baidu.com/s/1ySKEmn8WVm2efJVvJ_vMBQ?pwd=ebyx or https://drive.google.com/drive/folders/1OBOHWP15sH2mdgaKhq6v3YImT9zd__gj?usp=drive_link. Please download the data and untar it to `XXXX/data` via `unzip XXXX`. For example,  `unzip CUB_200_2011.zip`. Finally, the data file directory should be as follows:
+- The dataset has been prepared in the format we read at the link: https://pan.baidu.com/s/1Eh4ob9IdtJ42_0MUjEPE8g?pwd=wnvx or https://drive.google.com/drive/folders/1OBOHWP15sH2mdgaKhq6v3YImT9zd__gj?usp=drive_link. Please download the data and untar it to `XXXX/data` via `unzip XXXX`. For example,  `unzip CUB_200_2011.zip`. Finally, the data file directory should be as follows:
 
 
   XXXX/data/  
-    &nbsp; &nbsp; &nbsp; &nbsp; └── CUB_200_2011  
+    &nbsp; &nbsp; &nbsp; &nbsp; └── Market1501
+    &nbsp; &nbsp; &nbsp; &nbsp; └── MSMT17
+    &nbsp; &nbsp; &nbsp; &nbsp; └── VeRi776
     &nbsp; &nbsp; &nbsp; &nbsp; └── InShop  
     &nbsp; &nbsp; &nbsp; &nbsp; └── Stanford_Online_Products  
-    &nbsp; &nbsp; &nbsp; &nbsp; └── MSMT17
+
 
 1. download teacher models
 - Our teacher models are at https://pan.baidu.com/s/1X8urI8_bDfmdapSaNGYbtA?pwd=if2i or https://drive.google.com/drive/folders/1-S6r2nrcn6fQzBrnnEtLbivs4sZ028ZE?usp=drive_link, please download the checkpoints to `./download_ckpts`
