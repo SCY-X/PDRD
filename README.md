@@ -26,7 +26,7 @@ This repo is
 | PKT | 79.73% mAP &nbsp; 91.75% R1 | 
 | CSD | 79.09% mAP &nbsp; 91.72% R1 | 
 | D3 | 81.57% mAP &nbsp; 92.52% R1 |
-| PDRD (Ours) | 83.49% mAP &nbsp; 93.47% R1 | 
+| PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | 
 
 
 
