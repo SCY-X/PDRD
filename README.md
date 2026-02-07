@@ -30,16 +30,17 @@ This repo is
 
 ### On the DukeMTMC_reID dataset
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|
-|:---------------:|:-----------------:|
-| FitNet | 78.97% mAP &nbsp; 91.57% R1 | 
-| AT | 71.01% mAP &nbsp; 84.69% R1| 
-| CC | 77.03% mAP &nbsp; 90.35% R1 | 
-| SP | 80.28% mAP &nbsp; 92.40% R1 | 
-| RKD | 81.59% mAP &nbsp; 92.34% R1 | 
-| PKT | 79.73% mAP &nbsp; 91.75% R1 | 
-| CSD | 79.09% mAP &nbsp; 91.72% R1 | 
-| D3 | 81.57% mAP &nbsp; 92.52% R1 |
-| PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | 
+|:---------------:|:-----------------:|:---------------:|
+| VanillaKD | 71.77% mAP &nbsp; 85.95% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| FitNet | 68.63% mAP &nbsp; 82.85% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| AT | 71.01% mAP &nbsp; 84.69% R1| 0.80% mAP &nbsp; 0.28% R1 |
+| CC | 67.42% mAP &nbsp; 82.32% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| SP | 71.45% mAP &nbsp; 84.20% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| RKD | 71.93% mAP &nbsp; 85.55% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| PKT | 70.66% mAP &nbsp; 84.38% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| CSD | 68.24% mAP &nbsp; 83.26% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| D3 | 71.27% mAP &nbsp; 84.65% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| PDRD (Ours) | **73.76%** mAP &nbsp; **87.03%** R1 | 0.80% mAP &nbsp; 0.28% R1 |
 
 # IR-Distiller
 
