@@ -46,7 +46,7 @@ This repo is
 
 ### Introduction
 
-AR-Distiller supports the following distillation methods on In-Shop Clothes Retrieval (In-Shop), Stanford Online Products (SOP) and MSMT17:
+AR-Distiller supports the following distillation methods on Market-1501, DukeMTMC_reID, MSMT17, In-Shop Clothes Retrieval (In-Shop) and  Stanford Online Products (SOP):
 |Method|Publication|YEAR|
 |:---:|:---:|:---:|
 |[VanillaKD](https://arxiv.org/abs/1503.02531) |NIPS Workshop|2014|
