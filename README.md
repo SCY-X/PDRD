@@ -29,7 +29,7 @@ This repo is
 | PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | 0.80% mAP &nbsp; 0.28% R1 |
 
 ### On the DukeMTMC_reID dataset
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
 |:---------------:|:-----------------:|:---------------:|
 | VanillaKD | 71.77% mAP &nbsp; 85.95% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | FitNet | 68.63% mAP &nbsp; 82.85% R1 | 0.80% mAP &nbsp; 0.28% R1 |
