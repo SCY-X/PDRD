@@ -16,7 +16,7 @@ This repo is
 
 ### On the Market-1501 dataset
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
-|:---------------:|:-----------------:|:---------------:|:-----------------:|
+|:---------------:|:-----------------:|:---------------:|
 | VanillaKD | 81.54% mAP &nbsp; 92.61% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | FitNet | 78.97% mAP &nbsp; 91.57% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | AT | 80.69% mAP &nbsp; 92.67% R1| 0.80% mAP &nbsp; 0.28% R1 |
