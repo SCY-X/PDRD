@@ -19,13 +19,13 @@ This repo is
 |:---------------:|:-----------------:|:---------------:|
 | VanillaKD | 81.54% mAP &nbsp; 92.61% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | FitNet | 78.97% mAP &nbsp; 91.57% R1 | 0.80% mAP &nbsp; 0.28% R1 |
-| AT | 80.69% mAP &nbsp; 92.67% R1| 0.80% mAP &nbsp; 0.28% R1 |
-| CC | 77.03% mAP &nbsp; 90.35% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| AT | 80.69% mAP &nbsp; 92.67% R1| 81.95% mAP &nbsp; 93.08% R1 |
+| CC | 77.03% mAP &nbsp; 90.35% R1 | 78.01% mAP &nbsp; 91.54% R1 |
 | SP | 80.28% mAP &nbsp; 92.40% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | RKD | 81.59% mAP &nbsp; 92.34% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | PKT | 79.73% mAP &nbsp; 91.75% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | CSD | 79.09% mAP &nbsp; 91.72% R1 | 0.80% mAP &nbsp; 0.28% R1 |
-| D3 | 81.57% mAP &nbsp; 92.52% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| D3 | 81.57% mAP &nbsp; 92.52% R1 | 46.99% mAP &nbsp; 72.66% R1 |
 | PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | 0.80% mAP &nbsp; 0.28% R1 |
 
 ### On the DukeMTMC_reID dataset
