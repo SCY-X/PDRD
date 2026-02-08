@@ -42,6 +42,20 @@ This repo is
 | D3 | 71.27% mAP &nbsp; 84.65% R1 | 73.12% mAP &nbsp; 85.63% R1 |
 | PDRD (Ours) | **73.76%** mAP &nbsp; **87.03%** R1 | **74.24%** mAP &nbsp; **86.40%** R1 |
 
+### On the MSMT17 dataset
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
+|:---------------:|:-----------------:|:---------------:|
+| VanillaKD | 81.54% mAP &nbsp; 92.61% R1 | 82.71% mAP &nbsp; 93.20% R1 |
+| FitNet | 78.97% mAP &nbsp; 91.57% R1 | 80.19% mAP &nbsp; 92.37% R1 |
+| AT | 45.17% mAP &nbsp; 72.19% R1| 81.95% mAP &nbsp; 93.08% R1 |
+| CC | 39.20% mAP &nbsp; 66.92% R1 | 78.01% mAP &nbsp; 91.54% R1 |
+| SP | 80.28% mAP &nbsp; 92.40% R1 | 81.45% mAP &nbsp; 93.02% R1 |
+| RKD | 44.91% mAP &nbsp; **70.92%** R1 | 83.37% mAP &nbsp; 93.20% R1 |
+| PKT | 79.73% mAP &nbsp; 91.75% R1 | 80.21% mAP &nbsp; 92.16% R1 |
+| CSD | 40.90% mAP &nbsp; 67.98% R1 | 79.85% mAP &nbsp; 91.69% R1 |
+| D3 | 43.38% mAP &nbsp; 69.00% R1 | 82.24% mAP &nbsp; 93.17% R1 |
+| PDRD (Ours) | **45.63%** mAP &nbsp; 70.49% R1 | 84.88% mAP &nbsp; 94.12% R1 |
+
 # IR-Distiller
 
 ### Introduction
