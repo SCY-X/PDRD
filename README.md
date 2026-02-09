@@ -15,7 +15,7 @@ This repo is
 ## SOTA Experiments
 
 ### On the Market-1501 dataset
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
+| Teacher <br> Student | ResNet101 ($256\times128$) <br> ResNet18 ($256\times128$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
 |:---------------:|:-----------------:|:---------------:|
 | VanillaKD | 81.54% mAP &nbsp; 92.61% R1 | 82.71% mAP &nbsp; 93.20% R1 |
 | FitNet | 78.97% mAP &nbsp; 91.57% R1 | 80.19% mAP &nbsp; 92.37% R1 |
@@ -29,7 +29,7 @@ This repo is
 | PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | 84.88% mAP &nbsp; 94.12% R1 |
 
 ### On the DukeMTMC_reID dataset
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
+| Teacher <br> Student | ResNet101 ($256\times128$) <br> ResNet18 ($256\times128$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
 |:---------------:|:-----------------:|:---------------:|
 | VanillaKD | 71.77% mAP &nbsp; 85.95% R1 | 72.03% mAP &nbsp; 84.74% R1 |
 | FitNet | 68.63% mAP &nbsp; 82.85% R1 | 69.65% mAP &nbsp; 84.20% R1 |
@@ -43,6 +43,22 @@ This repo is
 | PDRD (Ours) | **73.76%** mAP &nbsp; **87.03%** R1 | **74.24%** mAP &nbsp; **86.40%** R1 |
 
 ### On the MSMT17 dataset
+| Teacher <br> Student | ResNet101 ($256\times128$) <br> ResNet18 ($256\times128$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
+|:---------------:|:-----------------:|:---------------:|
+| VanillaKD | 42.20% mAP &nbsp; 69.18% R1 | 45.98% mAP &nbsp; 72.69% R1 |
+| FitNet | 40.29% mAP &nbsp; 68.44% R1 | 41.84% mAP &nbsp; 70.90% R1 |
+| AT | 45.17% mAP &nbsp; 72.19% R1| 47.94% mAP &nbsp; 74.95% R1 |
+| CC | 39.20% mAP &nbsp; 66.92% R1 | 40.73% mAP &nbsp; 69.46% R1 |
+| SP | **46.12%** mAP &nbsp; **71.74%** R1 | 49.15% mAP &nbsp; **74.99%** R1 |
+| RKD | 44.91% mAP &nbsp; 70.92% R1 | 48.15% mAP &nbsp; 73.97% R1 |
+| PKT | 45.12% mAP &nbsp; 70.71% R1 | 47.20% mAP &nbsp; 73.86% R1 |
+| CSD | 40.90% mAP &nbsp; 67.98% R1 | 42.91% mAP &nbsp; 70.86% R1 |
+| D3 | 42.68% mAP &nbsp; 68.63% R1 | 46.42% mAP &nbsp; 72.25% R1 |
+| PDRD (Ours) | 45.63% mAP &nbsp; 70.49% R1 | **49.51%** mAP &nbsp; 73.84% R1 |
+
+75.04
+
+### On the VeRi776 dataset
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
 |:---------------:|:-----------------:|:---------------:|
 | VanillaKD | 42.20% mAP &nbsp; 69.18% R1 | 45.98% mAP &nbsp; 72.69% R1 |
