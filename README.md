@@ -51,7 +51,7 @@ This repo is
 | CC | 39.20% mAP &nbsp; 66.92% R1 | 40.73% mAP &nbsp; 69.46% R1 |
 | SP | **46.12%** mAP &nbsp; **71.74%** R1 | 49.15% mAP &nbsp; **74.99%** R1 |
 | RKD | 44.91% mAP &nbsp; 70.92% R1 | 48.15% mAP &nbsp; 73.97% R1 |
-| PKT | % mAP &nbsp; % R1 | 47.20% mAP &nbsp; 73.86% R1 |
+| PKT | 45.12% mAP &nbsp; 70.71% R1 | 47.20% mAP &nbsp; 73.86% R1 |
 | CSD | 40.90% mAP &nbsp; 67.98% R1 | 42.91% mAP &nbsp; 70.86% R1 |
 | D3 | 42.68% mAP &nbsp; 68.63% R1 | 46.42% mAP &nbsp; 72.25% R1 |
 | PDRD (Ours) | 45.63% mAP &nbsp; 70.49% R1 | **49.51%** mAP &nbsp; 73.84% R1 |
