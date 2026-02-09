@@ -120,7 +120,7 @@ sudo pip3 install -r requirements.txt
 
 
 1. download teacher models
-- Our teacher models are at https://pan.baidu.com/s/1X8urI8_bDfmdapSaNGYbtA?pwd=if2i or https://drive.google.com/drive/folders/1-S6r2nrcn6fQzBrnnEtLbivs4sZ028ZE?usp=drive_link, please download the checkpoints to `./download_ckpts`
+- Our teacher models are at https://pan.baidu.com/s/1f-mmMZkRHS57uvXhXI5dvQ?pwd=jtit  or https://drive.google.com/drive/folders/1YjtTjhsFCyMVFZNcll_ygPGfqIpPj7k4?usp=drive_link, please download the checkpoints to `./download_ckpts`
 
 2. Path setting
 - Please modify the following line in `IR_Distiller/tools/train.py` and `IR_Distiller/tools/test.py`:  
