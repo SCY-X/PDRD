@@ -53,7 +53,7 @@ This repo is
 | RKD | 44.91% mAP &nbsp; 70.92% R1 | 48.15% mAP &nbsp; 73.97% R1 |
 | PKT | % mAP &nbsp; % R1 | 47.20% mAP &nbsp; 73.86% R1 |
 | CSD | 40.90% mAP &nbsp; 67.98% R1 | 42.91% mAP &nbsp; 70.86% R1 |
-| D3 | % mAP &nbsp; % R1 | % mAP &nbsp; % R1 |
+| D3 | 42.68% mAP &nbsp; 68.63% R1 | 46.42% mAP &nbsp; 72.25% R1 |
 | PDRD (Ours) | 45.63% mAP &nbsp; 70.49% R1 | **49.51%** mAP &nbsp; 73.84% R1 |
 
 # IR-Distiller
