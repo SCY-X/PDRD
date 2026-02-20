@@ -5,6 +5,9 @@ This repo is
 (2) the official implementation of the Pattern Recognition-2024 paper: [Pairwise difference relational distillation for object re-identification](https://www.sciencedirect.com/science/article/pii/S0031320324002061).
 
 
+**NOTE:** The performance reproduced by this codebase may be slightly lower than the results reported in our paper, mainly due to:
+1) The triplet loss margin is **0.3** (default) here, while it is **0.35** in the paper.
+2) We use a **128-d** projection layer to keep the model lightweight, while the paper uses **512-d**.
 
 ## Pairwise difference relational distillation for object re-identification
 
