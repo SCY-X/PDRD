@@ -74,7 +74,7 @@ Key differences from the paper:
 | VanillaKD | 75.54% mAP &nbsp; 94.28% R1 | % mAP &nbsp; % R1 |
 | FitNet | 74.68% mAP &nbsp; 94.04% R1 | 75.48% mAP &nbsp; 94.34% R1 |
 | AT | 75.04% mAP &nbsp; 94.16% R1| 76.34% mAP &nbsp; 95.35% R1 |
-| CC | 73.73% mAP &nbsp; 93.80% R1 | 74.32% mAP &nbsp; 69.46% R1 |
+| CC | 73.73% mAP &nbsp; 93.80% R1 | 74.32% mAP &nbsp; 94.10% R1 |
 | SP | **76.85%** mAP &nbsp; **94.82%** R1 | 76.27% mAP &nbsp; 94.10% R1 |
 | RKD | 76.71% mAP &nbsp; 95.05% R1 | **77.90%** mAP &nbsp; 95.41% R1 |
 | PKT | 75.04% mAP &nbsp; 94.58% R1 | 75.86% mAP &nbsp; 94.93% R1 |
@@ -88,13 +88,13 @@ Key differences from the paper:
 | VanillaKD | **79.21%** mAP &nbsp; **93.76%** R1 | **80.41%** mAP &nbsp; **94.36%** R1 |
 | FitNet | 76.03% mAP &nbsp; 92.22% R1 | 77.28% mAP &nbsp; 92.96% R1 |
 | AT | 77.08% mAP &nbsp; 92.73% R1| 78.53% mAP &nbsp; 93.45% R1 |
-| CC | 75.74% mAP &nbsp; 92.19% R1 | 77.12% mAP &nbsp; 92,76% R1 |
+| CC | 75.74% mAP &nbsp; 92.19% R1 | 77.12% mAP &nbsp; 92.76% R1 |
 | SP | 76.91% mAP &nbsp; 92.48% R1 | 78.02% mAP &nbsp; 92.84% R1 |
 | RKD | 77.96% mAP &nbsp; 93.21% R1 | 78.91% mAP &nbsp; 93.53% R1 |
 | PKT | 76.47% mAP &nbsp; 92.28% R1 | 77.80% mAP &nbsp; 93.14% R1 |
 | CSD | 76.43% mAP &nbsp; 92.37% R1 | 77.91% mAP &nbsp; 93.21% R1 |
 | D3 | 77.72% mAP &nbsp; 93.17% R1 | 78.95% mAP &nbsp; 93.62% R1 |
-| PDRD (Ours) | 78.59% mAP &nbsp; 93.18% R1 | 79.79% mAP &nbsp; 73.84% R1 |
+| PDRD (Ours) | 78.59% mAP &nbsp; 93.18% R1 | 79.79% mAP &nbsp; 93.97% R1 |
 
 ### On the Stanford Online Products (SOP) dataset
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($384\times384$) <br> ResNet18 ($384\times384$)|
@@ -104,7 +104,7 @@ Key differences from the paper:
 | AT | 62.30% mAP &nbsp; 81.47% R1| 65.07% mAP &nbsp; 83.15% R1 |
 | CC | 61.37% mAP &nbsp; 81.00% R1 | 64.17% mAP &nbsp; 82.78% R1 |
 | SP | 62.71% mAP &nbsp; 81.50% R1 | 65.21% mAP &nbsp; 83.11% R1 |
-| RKD | 76.71% mAP &nbsp; 95.05% R1 | % mAP &nbsp; % R1 |
+| RKD | 63.76% mAP &nbsp; 82.22% R1 | % mAP &nbsp; % R1 |
 | PKT | 62.38% mAP &nbsp; 81.58% R1 | 65.01% mAP &nbsp; 83.08% R1 |
 | CSD | 62.48% mAP &nbsp; 81.60% R1 | % mAP &nbsp; % R1 |
 | D3 | 64.38% mAP &nbsp; 82.53% R1 | 66.68% mAP &nbsp; 83.93% R1 |
