@@ -150,7 +150,7 @@ sudo pip3 install -r requirements.txt
 
 
 1. download teacher models
-- Our teacher models are at https://pan.baidu.com/s/1f-mmMZkRHS57uvXhXI5dvQ?pwd=jtit  or https://drive.google.com/drive/folders/1YjtTjhsFCyMVFZNcll_ygPGfqIpPj7k4?usp=drive_link, please download the checkpoints to `./download_ckpts`
+- Our teacher models are at https://pan.baidu.com/s/1f-mmMZkRHS57uvXhXI5dvQ?pwd=jtit or https://drive.google.com/drive/folders/1YjtTjhsFCyMVFZNcll_ygPGfqIpPj7k4?usp=drive_link, please download the checkpoints to `./download_ckpts`
 
 2. Path setting
 - Please modify the following line in `IR_Distiller/tools/train.py` and `IR_Distiller/tools/test.py`:  
@@ -198,6 +198,13 @@ DATASETS:
 python3 setup.py build_ext --inplace
 rm -rf build
 ```
+
+5. Pretrained Weights
+- Our pretrained checkpoints are available at:
+  - Baidu Netdisk: https://pan.baidu.com/s/142S9sgUAQ9_CgNkMaer04w?pwd=v8rj
+  - Google Drive: https://drive.google.com/drive/folders/1bsm-vGCSEl3lo6LU_ENJD3j3kCN17TA-?usp=drive_link
+- Please download and place the checkpoints into `./log_IR/`.
+
 
 ### Custom Distillation Method
 
