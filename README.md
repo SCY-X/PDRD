@@ -24,6 +24,11 @@ Key differences from the paper:
 
 ## SOTA Experiments
 
+### Takeaways
+- **PDRD** performs best or near-best on major ReID benchmarks (Market-1501 / DukeMTMC-reID / MSMT17), especially on Market and Duke across both input resolutions.
+- On retrieval benchmarks (**In-Shop** and **SOP**), **VanillaKD** can be stronger, likely because these datasets emphasize global embedding ranking and generalization, where softer and more robust logit distillation tends to work well.
+- Higher input resolution (e.g., 320×160, 384×384) generally improves mAP/R1 for most methods, including PDRD.
+
 ### On the Market-1501 dataset
 | Teacher <br> Student | ResNet101 ($256\times128$) <br> ResNet18 ($256\times128$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
 |:---------------:|:-----------------:|:---------------:|
