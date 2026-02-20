@@ -76,7 +76,7 @@ Key differences from the paper:
 ### On the VeRi776 dataset
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($384\times384$) <br> ResNet18 ($384\times384$)|
 |:---------------:|:-----------------:|:---------------:|
-| VanillaKD | 75.54% mAP &nbsp; 94.28% R1 |  76.97% mAP &nbsp; 82.22% R1 |
+| VanillaKD | 75.54% mAP &nbsp; 94.28% R1 |  76.97% mAP &nbsp; 94.70% R1 |
 | FitNet | 74.68% mAP &nbsp; 94.04% R1 | 75.48% mAP &nbsp; 94.34% R1 |
 | AT | 75.04% mAP &nbsp; 94.16% R1| 76.34% mAP &nbsp; 95.35% R1 |
 | CC | 73.73% mAP &nbsp; 93.80% R1 | 74.32% mAP &nbsp; 94.10% R1 |
