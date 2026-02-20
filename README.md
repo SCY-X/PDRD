@@ -61,16 +61,16 @@ This repo is
 ### On the VeRi776 dataset
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($256\times256$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
 |:---------------:|:-----------------:|:---------------:|
-| VanillaKD | 75.54% mAP &nbsp; 94.28% R1 | 45.98% mAP &nbsp; 72.69% R1 |
-| FitNet | 74.68% mAP &nbsp; 94.04% R1 | 41.84% mAP &nbsp; 70.90% R1 |
-| AT | 75.04% mAP &nbsp; 94.16% R1| 47.94% mAP &nbsp; 74.95% R1 |
-| CC | 73.73% mAP &nbsp; 93.80% R1 | 40.73% mAP &nbsp; 69.46% R1 |
-| SP | **76.85%** mAP &nbsp; **94.82%** R1 | 49.15% mAP &nbsp; **74.99%** R1 |
-| RKD | 76.71% mAP &nbsp; 95.05% R1 | 48.15% mAP &nbsp; 73.97% R1 |
-| PKT | 75.04% mAP &nbsp; 94.58% R1 | 47.20% mAP &nbsp; 73.86% R1 |
-| CSD | 73.59% mAP &nbsp; 94.10% R1 | 42.91% mAP &nbsp; 70.86% R1 |
-| D3 | 75.51% mAP &nbsp; 94.87% R1 | 46.42% mAP &nbsp; 72.25% R1 |
-| PDRD (Ours) | 76.41% mAP &nbsp; 94.82% R1 | **49.51%** mAP &nbsp; 73.84% R1 |
+| VanillaKD | 75.54% mAP &nbsp; 94.28% R1 | % mAP &nbsp; % R1 |
+| FitNet | 74.68% mAP &nbsp; 94.04% R1 | 75.48% mAP &nbsp; 94.34% R1 |
+| AT | 75.04% mAP &nbsp; 94.16% R1| 76.34% mAP &nbsp; 95.35% R1 |
+| CC | 73.73% mAP &nbsp; 93.80% R1 | 74.32% mAP &nbsp; 69.46% R1 |
+| SP | **76.85%** mAP &nbsp; **94.82%** R1 | 76.27% mAP &nbsp; 94.10% R1 |
+| RKD | 76.71% mAP &nbsp; 95.05% R1 | **77.90%** mAP &nbsp; 95.41% R1 |
+| PKT | 75.04% mAP &nbsp; 94.58% R1 | 75.86% mAP &nbsp; 94.93% R1 |
+| CSD | 73.59% mAP &nbsp; 94.10% R1 | 75.31% mAP &nbsp; 94.04% R1 |
+| D3 | 75.51% mAP &nbsp; 94.87% R1 | 76.29% mAP &nbsp; 94.64% R1 |
+| PDRD (Ours) | 76.41% mAP &nbsp; 94.82% R1 | 77.79% mAP &nbsp;  **95.77%** R1 |
 
 # IR-Distiller
 
