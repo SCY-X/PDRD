@@ -5,9 +5,16 @@ This repo is
 (2) the official implementation of the Pattern Recognition-2024 paper: [Pairwise difference relational distillation for object re-identification](https://www.sciencedirect.com/science/article/pii/S0031320324002061).
 
 
-**NOTE:** The performance reproduced by this codebase may be slightly lower than the results reported in our paper, mainly due to:
-1) The triplet loss margin is **0.3** (default) here, while it is **0.35** in the paper.
-2) We use a **128-d** projection layer to keep the model lightweight, while the paper uses **512-d**.
+**NOTE:** This repository is a refactored distillation framework with a more lightweight default setup, so it does not exactly match the paper settings and may yield slightly lower performance.  
+Since distillation is bounded by the teacher’s capability, the lighter configuration may lead to a **weaker teacher**, which can further result in **lower distilled student performance**.  
+In addition, we did not extensively re-tune hyperparameters after refactoring.
+
+Key differences from the paper:
+1) Triplet loss margin: **0.35** (paper) vs **0.3** (default here).
+2) Projection dimension: **512-d** (paper) vs **128-d** (default here) for efficiency.
+3) For the **PDRD** method, PDRD loss weight is **1.5** in the paper but **2.0** in this codebase.
+
+> To align with the paper settings and obtain closer teacher/student results, set the triplet margin to 0.35, the projection dimension to 512, and (for PDRD) the distillation loss weight to 1.5 in the corresponding YAML/config.
 
 ## Pairwise difference relational distillation for object re-identification
 
