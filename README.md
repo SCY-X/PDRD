@@ -19,7 +19,7 @@ Key differences from the paper:
 ## Pairwise difference relational distillation for object re-identification
 
 ### Framework
-<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_framework.png" width="100%" ></div>
+<div style="text-align:center"><img src="/AIR_Distiller/.github/PDRD.png" width="100%" ></div>
 
 
 ## SOTA Experiments
