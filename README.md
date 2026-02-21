@@ -41,7 +41,7 @@ Key differences from the paper:
 | PKT | 79.73% mAP &nbsp; 91.75% R1 | 80.21% mAP &nbsp; 92.16% R1 |
 | CSD | 79.09% mAP &nbsp; 91.72% R1 | 79.85% mAP &nbsp; 91.69% R1 |
 | D3 | 81.57% mAP &nbsp; 92.52% R1 | 82.24% mAP &nbsp; 93.17% R1 |
-| PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | 84.88% mAP &nbsp; 94.12% R1 |
+| PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | **84.88%** mAP &nbsp; **94.12%** R1 |
 
 ### On the DukeMTMC_reID dataset
 | Teacher <br> Student | ResNet101 ($256\times128$) <br> ResNet18 ($256\times128$)|ResNet101 ($320\times160$) <br> ResNet18 ($320\times160$)|
