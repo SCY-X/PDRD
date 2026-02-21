@@ -109,9 +109,9 @@ Key differences from the paper:
 | AT | 62.30% mAP &nbsp; 81.47% R1| 65.07% mAP &nbsp; 83.15% R1 |
 | CC | 61.37% mAP &nbsp; 81.00% R1 | 64.17% mAP &nbsp; 82.78% R1 |
 | SP | 62.71% mAP &nbsp; 81.50% R1 | 65.21% mAP &nbsp; 83.11% R1 |
-| RKD | 63.76% mAP &nbsp; 82.22% R1 | % mAP &nbsp; % R1 |
+| RKD | 63.76% mAP &nbsp; 82.22% R1 | 66.14% mAP &nbsp; 83.66% R1 |
 | PKT | 62.38% mAP &nbsp; 81.58% R1 | 65.01% mAP &nbsp; 83.08% R1 |
-| CSD | 62.48% mAP &nbsp; 81.60% R1 | % mAP &nbsp; % R1 |
+| CSD | 62.48% mAP &nbsp; 81.60% R1 | 65.03% mAP &nbsp; 83.17% R1 |
 | D3 | 64.38% mAP &nbsp; 82.53% R1 | 66.68% mAP &nbsp; 83.93% R1 |
 | PDRD (Ours) | 64.11% mAP &nbsp; 82.35% R1 | 66.49% mAP &nbsp;  83.73% R1 |
 
