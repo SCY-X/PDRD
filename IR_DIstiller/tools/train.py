@@ -8,7 +8,7 @@ import torch
 
 
 import sys
-sys.path.append(os.path.abspath("/home/data2/xieyi/DRKD/D3still/IR_Distiller"))
+sys.path.append(os.path.abspath("/XXXX/IR_Distiller"))
 
 from config import cfg
 from utils.logger import setup_logger
