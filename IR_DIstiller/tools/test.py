@@ -1,11 +1,7 @@
 import os
 import shutil
 import argparse
-
 import torch
-
-import sys
-sys.path.append(os.path.abspath("/home/data2/xieyi/DRKD/D3still/IR_Distiller"))
 
 from config import cfg
 from utils.logger import setup_logger
@@ -14,6 +10,8 @@ from models import model_dict
 from distillers import distiller_dict
 from processor.inferencer import inference
 
+import sys
+sys.path.append(os.path.abspath("/XXX/IR_Distiller"))
 
 
 if __name__ == "__main__":
