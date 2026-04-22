@@ -152,7 +152,7 @@ sudo pip3 install -r requirements.txt
 ### Getting started
 
 0. download data
-- The dataset has been prepared in the format we read at the link: https://pan.baidu.com/s/1Eh4ob9IdtJ42_0MUjEPE8g?pwd=wnvx or [https://drive.google.com/drive/folders/1OBOHWP15sH2mdgaKhq6v3YImT9zd__gj?usp=drive_link](https://drive.google.com/drive/folders/1tcb6GR8yLwTxatK8vDIvcSnYzc_KoIPW?usp=sharing). Please download the data and untar it to `XXXX/data` via `unzip XXXX`. For example,  `unzip CUB_200_2011.zip`. Finally, the data file directory should be as follows:
+- The dataset has been prepared in the format we read at the link: https://pan.baidu.com/s/1Eh4ob9IdtJ42_0MUjEPE8g?pwd=wnvx or https://drive.google.com/drive/folders/1tcb6GR8yLwTxatK8vDIvcSnYzc_KoIPW?usp=sharing. Please download the data and untar it to `XXXX/data` via `unzip XXXX`. For example,  `unzip CUB_200_2011.zip`. Finally, the data file directory should be as follows:
 
 
   XXXX/data/  
@@ -165,7 +165,7 @@ sudo pip3 install -r requirements.txt
 
 
 1. download teacher models
-- Our teacher models are at https://pan.baidu.com/s/1f-mmMZkRHS57uvXhXI5dvQ?pwd=jtit or https://drive.google.com/drive/folders/1YjtTjhsFCyMVFZNcll_ygPGfqIpPj7k4?usp=drive_link, please download the checkpoints to `./download_ckpts`
+- Our teacher models are at https://pan.baidu.com/s/1f-mmMZkRHS57uvXhXI5dvQ?pwd=jtit or https://drive.google.com/drive/folders/1YjtTjhsFCyMVFZNcll_ygPGfqIpPj7k4?usp=sharing, please download the checkpoints to `./download_ckpts`
 
 2. Path setting
 - Please modify the following line in `IR_Distiller/tools/train.py` and `IR_Distiller/tools/test.py`:  
