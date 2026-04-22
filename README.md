@@ -214,10 +214,10 @@ python3 setup.py build_ext --inplace
 rm -rf build
 ```
 
-5. Pretrained Weights
-- Our pretrained checkpoints are available at:
+5. Student Checkpoint Weights
+- Our checkpoints model are available at:
   - Baidu Netdisk: https://pan.baidu.com/s/142S9sgUAQ9_CgNkMaer04w?pwd=v8rj
-  - Google Drive: https://drive.google.com/drive/folders/1bsm-vGCSEl3lo6LU_ENJD3j3kCN17TA-?usp=drive_link
+  - Google Drive: https://drive.google.com/drive/folders/1tZknjzxLm-B4jcLASUXz4mz1sTMhbh52?usp=sharing
 - Please download and place the checkpoints into `./log_IR/`.
 
 
