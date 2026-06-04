@@ -256,6 +256,17 @@ During training, the batch size of the distillation dataloader (96) is equal to 
 If this repo is helpful for your research, please consider citing these paper:
 
 ```BibTeX
+@article{cdd,
+    author    = {Xie, Yi and Zhang, Huaidong and Xu, Xuemiao and Zhu, Jianqing and He, Shengfeng},
+    title     = {Towards a Smaller Student: Capacity Dynamic Distillation for Efficient Image Retrieval},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {16006-16015}
+}
+```
+
+```BibTeX
 @article{xie2024pairwise,
   title={Pairwise difference relational distillation for object re-identification},
   author={Xie, Yi and Wu, Hanxiao and Lin, Yihong and Zhu, Jianqing and Zeng, Huanqiang},
