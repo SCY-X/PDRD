@@ -40,7 +40,7 @@ Key differences from the paper:
 | RKD | 81.59% mAP &nbsp; 92.34% R1 | 83.37% mAP &nbsp; 93.20% R1 |
 | PKT | 79.73% mAP &nbsp; 91.75% R1 | 80.21% mAP &nbsp; 92.16% R1 |
 | CSD | 79.09% mAP &nbsp; 91.72% R1 | 79.85% mAP &nbsp; 91.69% R1 |
-| D3 | 81.57% mAP &nbsp; 92.52% R1 | 82.24% mAP &nbsp; 93.17% R1 |
+| D3still | 81.57% mAP &nbsp; 92.52% R1 | 82.24% mAP &nbsp; 93.17% R1 |
 | PDRD (Ours) | **83.49%** mAP &nbsp; **93.47%** R1 | **84.88%** mAP &nbsp; **94.12%** R1 |
 
 ### On the DukeMTMC_reID dataset
@@ -54,7 +54,7 @@ Key differences from the paper:
 | RKD | 71.93% mAP &nbsp; 85.55% R1 | 73.16% mAP &nbsp; 85.95% R1 |
 | PKT | 70.66% mAP &nbsp; 84.38% R1 | 70.35% mAP &nbsp; 84.38% R1 |
 | CSD | 68.24% mAP &nbsp; 83.26% R1 | 68.58% mAP &nbsp; 83.57% R1 |
-| D3 | 71.27% mAP &nbsp; 84.65% R1 | 73.12% mAP &nbsp; 85.63% R1 |
+| D3still | 71.27% mAP &nbsp; 84.65% R1 | 73.12% mAP &nbsp; 85.63% R1 |
 | PDRD (Ours) | **73.76%** mAP &nbsp; **87.03%** R1 | **74.24%** mAP &nbsp; **86.40%** R1 |
 
 ### On the MSMT17 dataset
@@ -68,7 +68,7 @@ Key differences from the paper:
 | RKD | 44.91% mAP &nbsp; 70.92% R1 | 48.15% mAP &nbsp; 73.97% R1 |
 | PKT | 45.12% mAP &nbsp; 70.71% R1 | 47.20% mAP &nbsp; 73.86% R1 |
 | CSD | 40.90% mAP &nbsp; 67.98% R1 | 42.91% mAP &nbsp; 70.86% R1 |
-| D3 | 42.68% mAP &nbsp; 68.63% R1 | 46.42% mAP &nbsp; 72.25% R1 |
+| D3still | 42.68% mAP &nbsp; 68.63% R1 | 46.42% mAP &nbsp; 72.25% R1 |
 | PDRD (Ours) | 45.63% mAP &nbsp; 70.49% R1 | **49.51%** mAP &nbsp; 73.84% R1 |
 
 
@@ -84,7 +84,7 @@ Key differences from the paper:
 | RKD | 76.71% mAP &nbsp; 95.05% R1 | **77.90%** mAP &nbsp; 95.41% R1 |
 | PKT | 75.04% mAP &nbsp; 94.58% R1 | 75.86% mAP &nbsp; 94.93% R1 |
 | CSD | 73.59% mAP &nbsp; 94.10% R1 | 75.31% mAP &nbsp; 94.04% R1 |
-| D3 | 75.51% mAP &nbsp; 94.87% R1 | 76.29% mAP &nbsp; 94.64% R1 |
+| D3still | 75.51% mAP &nbsp; 94.87% R1 | 76.29% mAP &nbsp; 94.64% R1 |
 | PDRD (Ours) | 76.41% mAP &nbsp; 94.82% R1 | 77.79% mAP &nbsp;  **95.77%** R1 |
 
 ### On the In-Shop Clothes Retrieval (In-Shop) dataset
@@ -98,7 +98,7 @@ Key differences from the paper:
 | RKD | 77.96% mAP &nbsp; 93.21% R1 | 78.91% mAP &nbsp; 93.53% R1 |
 | PKT | 76.47% mAP &nbsp; 92.28% R1 | 77.80% mAP &nbsp; 93.14% R1 |
 | CSD | 76.43% mAP &nbsp; 92.37% R1 | 77.91% mAP &nbsp; 93.21% R1 |
-| D3 | 77.72% mAP &nbsp; 93.17% R1 | 78.95% mAP &nbsp; 93.62% R1 |
+| D3still | 77.72% mAP &nbsp; 93.17% R1 | 78.95% mAP &nbsp; 93.62% R1 |
 | PDRD (Ours) | 78.59% mAP &nbsp; 93.18% R1 | 79.79% mAP &nbsp; 93.97% R1 |
 
 ### On the Stanford Online Products (SOP) dataset
@@ -112,7 +112,7 @@ Key differences from the paper:
 | RKD | 63.76% mAP &nbsp; 82.22% R1 | 66.14% mAP &nbsp; 83.66% R1 |
 | PKT | 62.38% mAP &nbsp; 81.58% R1 | 65.01% mAP &nbsp; 83.08% R1 |
 | CSD | 62.48% mAP &nbsp; 81.60% R1 | 65.03% mAP &nbsp; 83.17% R1 |
-| D3 | 64.38% mAP &nbsp; 82.53% R1 | 66.68% mAP &nbsp; 83.93% R1 |
+| D3still | 64.38% mAP &nbsp; 82.53% R1 | 66.68% mAP &nbsp; 83.93% R1 |
 | PDRD (Ours) | 64.11% mAP &nbsp; 82.35% R1 | 66.49% mAP &nbsp;  83.73% R1 |
 
 
